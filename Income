@@ -1,0 +1,10 @@
+First_Name = input("Enter your first name: ")
+
+#Convert input to floating point number
+Hourly_Rate = float(input(First_Name + "" + ", what is your hourly rate? "))
+
+Total_Weekly_Hours = int(input(First_Name + "" + ", enter your total hours worked this week: "))
+
+Total_Earnings = Hourly_Rate * Total_Weekly_Hours
+
+print(First_Name + "" + ", your check for this week should be $",Total_Earnings)
